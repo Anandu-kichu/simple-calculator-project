@@ -1,0 +1,42 @@
+
+.calculator{
+    border: 2px solid;
+    height: 500px;
+    width: 400px;
+    margin: 60px 500px;
+}
+.header{
+display: flex;
+width: 400px;
+}
+.cle button{
+    width: 50px;
+    height: 100%;
+}
+
+.display {
+    width: 350px;
+    
+    height: 40px;
+}
+.content{
+    border: 1px solid;
+    margin-top: 30px;
+}
+.content .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.row button{
+    width: 98px;
+height: 62px;
+text-decoration: none;
+background-color:
+silver;
+}
+@media (max-width:600px){
+.calculator{
+    margin: 0px 0px;
+}
+}
